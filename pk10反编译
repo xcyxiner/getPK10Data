@@ -1,0 +1,105 @@
+## 破解资源
+
+*   [在线破解工具包](https://down.52pojie.cn/Tools/Disassemblers/)
+
+## RzButton1Clint（添加）
+
+    005A0310
+    xcyxiner_add_click 
+
+    日期错误
+    期数错误
+    开奖号码错误
+    添加成功
+    期数已存在
+    `<span class="hljs-tag"></<span class="hljs-title">pre</span>></span>
+
+    ## RzButtion2 无
+
+    <span class="hljs-tag"><<span class="hljs-title">pre</span>></span>`<span class="hljs-tag"><<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hljs-number"</span>></span>0059F<span class="hljs-tag"></<span class="hljs-title">span</span>></span>97C
+    `<span class="hljs-tag"></<span class="hljs-title">pre</span>></span>
+
+    ## RzButton3Click （加载公式库）
+
+    <span class="hljs-tag"><<span class="hljs-title">pre</span>></span>`005A02AC
+    xcy_loadGongShi_Click
+
+    共
+    条
+    请先选择公式库路径
+    `<span class="hljs-tag"></<span class="hljs-title">pre</span>></span>
+
+    ## RzButton4Click （搜索）
+
+    <span class="hljs-tag"><<span class="hljs-title">pre</span>></span>`005A06AC
+
+    正在计算公式<span class="hljs-tag"><<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hljs-keyword"</span>></span>...<span class="hljs-tag"></<span class="hljs-title">span</span>></span>
+    开始搜索
+    公式搜索完成
+    搜索完成
+    `<span class="hljs-tag"></<span class="hljs-title">pre</span>></span>
+
+    ## RzButton5Click( 搜索下期）
+
+    <span class="hljs-tag"><<span class="hljs-title">pre</span>></span>`005A0C64
+
+    请先载入公式和数据
+    请先点击搜索后，再执行此操作
+    搜索
+    期开始
+    计算
+    计算完成
+    期完成
+    `<span class="hljs-tag"></<span class="hljs-title">pre</span>></span>
+
+    ## RzButton7Click（重投）
+
+    <span class="hljs-tag"><<span class="hljs-title">pre</span>></span>`005A2B94
+    请先开始投注
+    请先登陆
+    已经下注，确定需要重新下注么
+    `<span class="hljs-tag"></<span class="hljs-title">pre</span>></span>
+
+    ## RzButton8Click(重载数据)
+
+    <span class="hljs-tag"><<span class="hljs-title">pre</span>></span>`<span class="hljs-tag"><<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hljs-title"</span>></span>xcy_reloaddata_click<span class="hljs-tag"></<span class="hljs-title">span</span>></span>
+    <span class="hljs-tag"><<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hljs-number"</span>></span>005<span class="hljs-tag"></<span class="hljs-title">span</span>></span>A0168
+
+    请先更新数据
+    数据出错，请检测，错误期数
+    读取数据出错，请检查<span class="hljs-tag"><<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hljs-typedef"</span>></span><span class="hljs-tag"><<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hljs-keyword"</span>></span>data<span class="hljs-tag"></<span class="hljs-title">span</span>></span>目录下的数据文件：错误期数<span class="hljs-tag"></<span class="hljs-title">span</span>></span>
+    最新
+    |
+    <span class="hljs-tag"><<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hljs-title"</span>></span>yyyy<span class="hljs-tag"></<span class="hljs-title">span</span>></span>-<span class="hljs-tag"><<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hljs-type"</span>></span>MM<span class="hljs-tag"></<span class="hljs-title">span</span>></span>-dd
+    最新数据
+    信息
+    `<span class="hljs-tag"></<span class="hljs-title">pre</span>></span>
+
+    ## RzButton9Click 无
+
+    ## RzBtn_LoginClick（登陆）
+
+    <span class="hljs-tag"><<span class="hljs-title">pre</span>></span>`005A29B8
+    登陆
+    退出
+    登陆失败
+    `<span class="hljs-tag"></<span class="hljs-title">pre</span>></span>
+
+    ## RzBtn_scgsClick(随机生成）
+
+    <span class="hljs-tag"><<span class="hljs-title">pre</span>></span>`公示库
+    临时库<span class="hljs-tag"><<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hljs-class"</span>></span>.txt<span class="hljs-tag"></<span class="hljs-title">span</span>></span>
+    公示库生成完毕
+    `<span class="hljs-tag"></<span class="hljs-title">pre</span>></span>
+
+    ## RzLabel7Click（强制更新)
+
+    <span class="hljs-tag"><<span class="hljs-title">pre</span>></span>`005A1C80
+    正在计算数据，暂停更新<span class="hljs-tag"><<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hljs-keyword"</span>></span>...<span class="hljs-tag"></<span class="hljs-title">span</span>></span>
+    准备强制更新
+    `<span class="hljs-tag"></<span class="hljs-title">pre</span>></span>
+
+    ## be_gskButtonClick(选择公示库按钮)
+
+    <span class="hljs-tag"><<span class="hljs-title">pre</span>></span>`0059E984
+    

@@ -1,0 +1,145 @@
+公式随机生成
+==========================
+
+A-J10个字母  RandInt(10)
+
+
+A+ RandInt(10) = A - J       第一个字母
+
+
+
++-* 三个符号    RandInt(3)
+
+
+总共有5个数（包括带括号的），剩下生成4个数
+
+
+
+第二个字母
+v6= RandInt(10)
+
+
+lastNumber=1
+
+
+if( lastNumber %2 == 1)
+          
+      v6 = 0
+
+lastNumber=v6
+
+
+
+switch v6
+
+0
+3
+5
+8
+
+    +-* 三个符号  RandInt(3)
+
+    RandInt(10) （A-J字母）
+1
+4
+7
+9
+     
+     +-  RandInt(2) 
+
+    RandInt（0x63）+ 1 数字 (10进制100）
+    CvtInt 算法见后文（16进制数字，大数字）
+    
+
+2
+6
+
+     +-  RandInt(2) 
+     新公式（带括号的）
+
+
+
+==========================
+
+新公式算法
+Randint（10）
+A+ RandInt(10) = A - J       第一个字母
+
+
+RandInt（2）+1
+
+总共有3个数，剩下生成2个数
+
+
+
+v5=RandInt(6)
+
+
+if(v5 < 3)
+{
+
+if(表达式)
+{
+
++-* RandInt(2)
+
+
+RandInt(0x63)+1 数字
+
+
+}else
+{
+
+ RandInt(0x63)
+
+}
+
+
+
+}else if( v5-3< 3)
+{
+
+
+if(表达式)
+{
++-* RandInt（3）
+
+ RandInt(10) 字符
+
+
+
+}else
+{
+
+ RandInt(10) 字符
+
+}
+
+
+}
+
+==========================
+
+
+CvtInt算法（4B->75）
+
+
+do
+
+{
+result=result/10  整数  余数
+
+
+v4= result % 10 + 48 
+
+
+if( v4 >= 58)
+{
+    v4=v4+7
+}
+
+a3= v4 在  ascii 码表中的字符（末位，前一位）
+
+
+}
+while (result)
